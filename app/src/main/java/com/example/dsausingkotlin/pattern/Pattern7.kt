@@ -15,11 +15,10 @@ fun main(args: Array<String>) {
 
     for (i in 1..terms) {
         for(space in 1..terms - i){
-           print(" ")
+            print(" ")
         }
         for (j in 1..2*i-1) {
-            print("*")
-            print(" ")
+            print(i)
         }
         println()
     }
